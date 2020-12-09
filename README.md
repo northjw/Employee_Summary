@@ -22,13 +22,13 @@ An app that allows a manager to build a team rooster for their work crew.
    An app that allows a manager to build a team roster for their work crew. 
 ## Installation ##
     npm i, node app.js
- ##  Usage ##
-  to easily organize your work crew iinto roster
-  ##  License ##
+## Usage ##
+  to easily organize your work crew into a roster
+## License ##
   This application is covered by the Mozilla license;
   ![badge](https://img.shields.io/badge/license-Mozilla-green)
   
-  ##  Contributors ##
+## Contributors ##
   Greg K. (tutur), Ask BCS
 
 
