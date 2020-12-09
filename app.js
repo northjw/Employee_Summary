@@ -192,13 +192,13 @@ function appMenu() {
         inquirer.prompt([
             {
                 type: "input",
-                name: "internName",
+                name: "iName",
                 message: "What is your intern's name?",
                 validate: answer => {
                     if (answer !== "") {
                         return true;
                     }
-                    return "Do you not know your inter's name? Find it out and enter it.";
+                    return "Do you not know your intern's name? Find it out and enter it.";
                 }
             },
 
