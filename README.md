@@ -33,7 +33,7 @@ An app that allows a manager to build a team rooster for their work crew.
 
 
 ## Video ##
-[Click here to view video tutorial](https://drive.google.com/file/d/129edePLPAOdKZDiojhVGT4rKzfY2YU11/view)
+[Click here to view video tutorial](https://youtu.be/zsgDOiiWRCQ)
 
 
  ##  Questions  ## 
