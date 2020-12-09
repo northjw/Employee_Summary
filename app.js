@@ -39,7 +39,7 @@ function appMenu() {
                     if (answer !== "") {
                         return true;
                     }
-                    return "Please enter at least one character.";
+                    return "Please enter your name.";
                 }
             },
             {
@@ -110,7 +110,7 @@ function appMenu() {
                     addEngineer();
                     break;
                 case "Intern":
-                    addintern();
+                    addIntern();
                     break;
                 default:
                     buildTeam();
@@ -198,7 +198,7 @@ function appMenu() {
                     if (answer !== "") {
                         return true;
                     }
-                    return "Please enter at least one character.";
+                    return "Do you not know your inter's name? Find it out and enter it.";
                 }
             },
 
@@ -246,7 +246,7 @@ function appMenu() {
                     if (answer !== "") {
                         return true;
                     }
-                    return "Please enter at least one character.";
+                    return "Please enter a valid school's name";
                 }
             },
 
@@ -261,7 +261,7 @@ function appMenu() {
 
 
     //buildTeam()
-    function generateHtml() {
+    function buildTeam() {
         if (!fs.existsSync(OUTPUT_DIR)) {
             fs.mkdirSync(OUTPUT_DIR)
         }
